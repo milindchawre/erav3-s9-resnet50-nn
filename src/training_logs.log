@@ -1,0 +1,508 @@
+nohup: ignoring input
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:75: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Number of workers for dataloader: 20
+Using 2 GPUs!
+No checkpoint found at 'checkpoint.pth'
+Epoch 1/50:   0%|          | 0/251 [00:00<?, ?it/s]/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:89: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1/50: 100%|██████████| 251/251 [26:05<00:00,  6.24s/it]
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:115: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Train Loss: 5.8491, Train Accuracy: 4.08%
+Validation Loss: 5.2749, Validation Accuracy: 6.81%
+Checkpoint saved to checkpoint.pth
+Epoch 2/50: 100%|██████████| 251/251 [18:10<00:00,  4.34s/it]
+Train Loss: 4.5186, Train Accuracy: 14.54%
+Validation Loss: 4.1946, Validation Accuracy: 16.81%
+Checkpoint saved to checkpoint.pth
+Epoch 3/50: 100%|██████████| 251/251 [18:00<00:00,  4.30s/it]
+Train Loss: 3.7784, Train Accuracy: 24.03%
+Validation Loss: 3.6403, Validation Accuracy: 24.72%
+Checkpoint saved to checkpoint.pth
+Epoch 4/50: 100%|██████████| 251/251 [17:06<00:00,  4.09s/it]
+Train Loss: 3.3502, Train Accuracy: 30.45%
+Validation Loss: 3.4079, Validation Accuracy: 27.46%
+Checkpoint saved to checkpoint.pth
+Epoch 5/50: 100%|██████████| 251/251 [17:14<00:00,  4.12s/it]
+Train Loss: 3.0629, Train Accuracy: 35.14%
+Validation Loss: 2.9715, Validation Accuracy: 34.74%
+Checkpoint saved to checkpoint.pth
+Epoch 6/50: 100%|██████████| 251/251 [20:09<00:00,  4.82s/it]
+Train Loss: 2.8560, Train Accuracy: 38.74%
+Validation Loss: 2.9159, Validation Accuracy: 35.83%
+Checkpoint saved to checkpoint.pth
+Epoch 7/50: 100%|██████████| 251/251 [17:34<00:00,  4.20s/it]
+Train Loss: 2.6970, Train Accuracy: 41.52%
+Validation Loss: 2.7974, Validation Accuracy: 38.35%
+Checkpoint saved to checkpoint.pth
+Epoch 8/50: 100%|██████████| 251/251 [17:41<00:00,  4.23s/it]
+Train Loss: 2.5792, Train Accuracy: 43.61%
+Validation Loss: 2.6102, Validation Accuracy: 41.29%
+Checkpoint saved to checkpoint.pth
+Epoch 9/50: 100%|██████████| 251/251 [16:28<00:00,  3.94s/it]
+Train Loss: 2.4713, Train Accuracy: 45.54%
+Validation Loss: 2.5903, Validation Accuracy: 41.88%
+Checkpoint saved to checkpoint.pth
+Epoch 10/50: 100%|██████████| 251/251 [14:16<00:00,  3.41s/it]
+Train Loss: 2.3872, Train Accuracy: 47.09%
+Validation Loss: 2.4546, Validation Accuracy: 44.65%
+Checkpoint saved to checkpoint.pth
+Epoch 11/50: 100%|██████████| 251/251 [17:28<00:00,  4.18s/it]
+Train Loss: 2.3105, Train Accuracy: 48.52%
+Validation Loss: 2.4507, Validation Accuracy: 45.09%
+Checkpoint saved to checkpoint.pth
+Epoch 12/50: 100%|██████████| 251/251 [14:03<00:00,  3.36s/it]
+Train Loss: 2.2437, Train Accuracy: 49.77%
+Validation Loss: 2.3433, Validation Accuracy: 46.40%
+Checkpoint saved to checkpoint.pth
+Epoch 13/50: 100%|██████████| 251/251 [13:36<00:00,  3.25s/it]
+Train Loss: 2.1894, Train Accuracy: 50.86%
+Validation Loss: 2.2863, Validation Accuracy: 47.36%
+Checkpoint saved to checkpoint.pth
+Epoch 14/50: 100%|██████████| 251/251 [15:47<00:00,  3.77s/it]
+Train Loss: 2.1396, Train Accuracy: 51.84%
+Validation Loss: 2.1399, Validation Accuracy: 50.65%
+Checkpoint saved to checkpoint.pth
+Epoch 15/50: 100%|██████████| 251/251 [17:47<00:00,  4.25s/it]
+Train Loss: 2.0944, Train Accuracy: 52.67%
+Validation Loss: 2.1400, Validation Accuracy: 50.20%
+Checkpoint saved to checkpoint.pth
+Epoch 16/50: 100%|██████████| 251/251 [16:47<00:00,  4.01s/it]
+Train Loss: 2.0541, Train Accuracy: 53.44%
+Validation Loss: 2.0215, Validation Accuracy: 52.70%
+Checkpoint saved to checkpoint.pth
+Epoch 17/50: 100%|██████████| 251/251 [16:39<00:00,  3.98s/it]
+Train Loss: 2.0121, Train Accuracy: 54.21%
+Validation Loss: 2.2415, Validation Accuracy: 48.57%
+Checkpoint saved to checkpoint.pth
+Epoch 18/50: 100%|██████████| 251/251 [18:27<00:00,  4.41s/it]
+Train Loss: 1.9805, Train Accuracy: 54.90%
+Validation Loss: 2.1462, Validation Accuracy: 50.45%
+Checkpoint saved to checkpoint.pth
+Epoch 19/50: 100%|██████████| 251/251 [18:30<00:00,  4.42s/it]
+Train Loss: 1.9487, Train Accuracy: 55.51%
+Validation Loss: 1.9527, Validation Accuracy: 54.11%
+Checkpoint saved to checkpoint.pth
+Epoch 20/50: 100%|██████████| 251/251 [18:18<00:00,  4.38s/it]
+Train Loss: 1.9172, Train Accuracy: 56.14%
+Validation Loss: 2.0335, Validation Accuracy: 52.31%
+Checkpoint saved to checkpoint.pth
+Epoch 21/50: 100%|██████████| 251/251 [19:20<00:00,  4.62s/it]
+Train Loss: 1.8867, Train Accuracy: 56.72%
+Validation Loss: 1.9212, Validation Accuracy: 54.85%
+Checkpoint saved to checkpoint.pth
+Epoch 22/50: 100%|██████████| 251/251 [18:21<00:00,  4.39s/it]
+Train Loss: 1.8607, Train Accuracy: 57.21%
+Validation Loss: 1.8813, Validation Accuracy: 55.49%
+Checkpoint saved to checkpoint.pth
+Epoch 23/50: 100%|██████████| 251/251 [17:14<00:00,  4.12s/it]
+Train Loss: 1.8382, Train Accuracy: 57.67%
+Validation Loss: 1.8402, Validation Accuracy: 56.35%
+Checkpoint saved to checkpoint.pth
+Epoch 24/50: 100%|██████████| 251/251 [20:37<00:00,  4.93s/it]
+Train Loss: 1.8158, Train Accuracy: 58.15%
+Validation Loss: 1.7600, Validation Accuracy: 58.22%
+Checkpoint saved to checkpoint.pth
+Epoch 25/50: 100%|██████████| 251/251 [17:46<00:00,  4.25s/it]
+Train Loss: 1.7929, Train Accuracy: 58.62%
+Validation Loss: 1.8353, Validation Accuracy: 56.84%
+Checkpoint saved to checkpoint.pth
+Epoch 26/50: 100%|██████████| 251/251 [16:10<00:00,  3.87s/it]
+Train Loss: 1.7741, Train Accuracy: 58.99%
+Validation Loss: 1.7750, Validation Accuracy: 57.34%
+Checkpoint saved to checkpoint.pth
+Epoch 27/50: 100%|██████████| 251/251 [19:23<00:00,  4.64s/it]
+Train Loss: 1.7553, Train Accuracy: 59.36%
+Validation Loss: 1.8301, Validation Accuracy: 56.70%
+Checkpoint saved to checkpoint.pth
+Epoch 28/50: 100%|██████████| 251/251 [17:14<00:00,  4.12s/it]
+Train Loss: 1.7370, Train Accuracy: 59.72%
+Validation Loss: 1.7439, Validation Accuracy: 58.52%
+Checkpoint saved to checkpoint.pth
+Epoch 29/50: 100%|██████████| 251/251 [23:38<00:00,  5.65s/it]
+Train Loss: 1.7189, Train Accuracy: 60.09%
+Validation Loss: 1.7456, Validation Accuracy: 58.46%
+Checkpoint saved to checkpoint.pth
+Epoch 30/50: 100%|██████████| 251/251 [22:44<00:00,  5.44s/it]
+Train Loss: 1.7034, Train Accuracy: 60.37%
+Validation Loss: 1.8105, Validation Accuracy: 57.32%
+Checkpoint saved to checkpoint.pth
+Epoch 31/50: 100%|██████████| 251/251 [23:58<00:00,  5.73s/it]
+Train Loss: 1.6877, Train Accuracy: 60.71%
+Validation Loss: 1.7162, Validation Accuracy: 58.84%
+Checkpoint saved to checkpoint.pth
+Epoch 32/50: 100%|██████████| 251/251 [20:02<00:00,  4.79s/it]
+Train Loss: 1.6715, Train Accuracy: 61.03%
+Validation Loss: 1.6760, Validation Accuracy: 59.83%
+Checkpoint saved to checkpoint.pth
+Epoch 33/50: 100%|██████████| 251/251 [18:58<00:00,  4.54s/it]
+Train Loss: 1.6579, Train Accuracy: 61.27%
+Validation Loss: 1.7003, Validation Accuracy: 59.10%
+Checkpoint saved to checkpoint.pth
+Epoch 34/50: 100%|██████████| 251/251 [16:52<00:00,  4.03s/it]
+Train Loss: 1.6443, Train Accuracy: 61.56%
+Validation Loss: 1.6907, Validation Accuracy: 59.40%
+Checkpoint saved to checkpoint.pth
+Epoch 35/50: 100%|██████████| 251/251 [15:46<00:00,  3.77s/it]
+Train Loss: 1.6327, Train Accuracy: 61.87%
+Validation Loss: 1.6382, Validation Accuracy: 60.57%
+Checkpoint saved to checkpoint.pth
+Epoch 36/50: 100%|██████████| 251/251 [19:10<00:00,  4.58s/it]
+Train Loss: 1.6174, Train Accuracy: 62.18%
+Validation Loss: 1.6446, Validation Accuracy: 60.79%
+Checkpoint saved to checkpoint.pth
+Epoch 37/50: 100%|██████████| 251/251 [17:22<00:00,  4.15s/it]
+Train Loss: 1.6077, Train Accuracy: 62.32%
+Validation Loss: 1.7081, Validation Accuracy: 59.20%
+Checkpoint saved to checkpoint.pth
+Epoch 38/50: 100%|██████████| 251/251 [17:49<00:00,  4.26s/it]
+Train Loss: 1.5932, Train Accuracy: 62.64%
+Validation Loss: 1.6682, Validation Accuracy: 60.26%
+Checkpoint saved to checkpoint.pth
+Epoch 39/50: 100%|██████████| 251/251 [20:47<00:00,  4.97s/it]
+Train Loss: 1.5829, Train Accuracy: 62.87%
+Validation Loss: 1.6614, Validation Accuracy: 60.46%
+Checkpoint saved to checkpoint.pth
+Epoch 40/50: 100%|██████████| 251/251 [19:05<00:00,  4.57s/it]
+Train Loss: 1.5724, Train Accuracy: 63.06%
+Validation Loss: 1.6206, Validation Accuracy: 61.03%
+Checkpoint saved to checkpoint.pth
+Epoch 41/50: 100%|██████████| 251/251 [18:35<00:00,  4.45s/it]
+Train Loss: 1.5627, Train Accuracy: 63.27%
+Validation Loss: 1.6266, Validation Accuracy: 60.88%
+Checkpoint saved to checkpoint.pth
+Epoch 42/50: 100%|██████████| 251/251 [19:30<00:00,  4.66s/it]
+Train Loss: 1.5527, Train Accuracy: 63.51%
+Validation Loss: 1.6598, Validation Accuracy: 60.37%
+Checkpoint saved to checkpoint.pth
+Epoch 43/50: 100%|██████████| 251/251 [19:03<00:00,  4.55s/it]
+Train Loss: 1.5384, Train Accuracy: 63.74%
+Validation Loss: 1.5623, Validation Accuracy: 62.13%
+Checkpoint saved to checkpoint.pth
+Epoch 44/50: 100%|██████████| 251/251 [18:10<00:00,  4.35s/it]
+Train Loss: 1.5313, Train Accuracy: 63.87%
+Validation Loss: 1.6177, Validation Accuracy: 60.85%
+Checkpoint saved to checkpoint.pth
+Epoch 45/50: 100%|██████████| 251/251 [22:32<00:00,  5.39s/it]
+Train Loss: 1.5248, Train Accuracy: 64.04%
+Validation Loss: 1.5547, Validation Accuracy: 62.35%
+Checkpoint saved to checkpoint.pth
+Epoch 46/50: 100%|██████████| 251/251 [17:50<00:00,  4.27s/it]
+Train Loss: 1.5165, Train Accuracy: 64.23%
+Validation Loss: 1.6580, Validation Accuracy: 60.49%
+Checkpoint saved to checkpoint.pth
+Epoch 47/50: 100%|██████████| 251/251 [18:14<00:00,  4.36s/it]
+Train Loss: 1.5065, Train Accuracy: 64.44%
+Validation Loss: 1.5500, Validation Accuracy: 62.49%
+Checkpoint saved to checkpoint.pth
+Epoch 48/50: 100%|██████████| 251/251 [22:38<00:00,  5.41s/it]
+Train Loss: 1.4964, Train Accuracy: 64.63%
+Validation Loss: 1.5610, Validation Accuracy: 62.26%
+Checkpoint saved to checkpoint.pth
+Epoch 49/50:   0%|          | 0/251 [00:00<?, ?it/s]
+------------------------------------------------------------------------------------------------------------------
+# Increased epoch to 80
+------------------------------------------------------------------------------------------------------------------
+nohup: ignoring input
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:26: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename)
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:75: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Number of workers for dataloader: 20
+Using 2 GPUs!
+Loading checkpoint 'checkpoint.pth'
+Checkpoint loaded (epoch 48, loss 1.4964)
+Epoch 49/80:   0%|          | 0/251 [00:00<?, ?it/s]/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:89: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 49/80: 100%|██████████| 251/251 [27:33<00:00,  6.59s/it]
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:115: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Train Loss: 1.4894, Train Accuracy: 64.77%
+Validation Loss: 1.6466, Validation Accuracy: 60.70%
+Checkpoint saved to checkpoint.pth
+Epoch 50/80: 100%|██████████| 251/251 [23:03<00:00,  5.51s/it]
+Train Loss: 1.4818, Train Accuracy: 64.93%
+Validation Loss: 1.5865, Validation Accuracy: 61.56%
+Checkpoint saved to checkpoint.pth
+Epoch 51/80: 100%|██████████| 251/251 [26:36<00:00,  6.36s/it]
+Train Loss: 1.4739, Train Accuracy: 65.12%
+Validation Loss: 1.6034, Validation Accuracy: 61.34%
+Checkpoint saved to checkpoint.pth
+Epoch 52/80: 100%|██████████| 251/251 [22:51<00:00,  5.47s/it]
+Train Loss: 1.4706, Train Accuracy: 65.25%
+Validation Loss: 1.6020, Validation Accuracy: 61.53%
+Checkpoint saved to checkpoint.pth
+Epoch 53/80: 100%|██████████| 251/251 [21:08<00:00,  5.05s/it]
+Train Loss: 1.4614, Train Accuracy: 65.35%
+Validation Loss: 1.5864, Validation Accuracy: 61.85%
+Checkpoint saved to checkpoint.pth
+Epoch 54/80: 100%|██████████| 251/251 [17:20<00:00,  4.15s/it]
+Train Loss: 1.4535, Train Accuracy: 65.53%
+Validation Loss: 1.5633, Validation Accuracy: 62.02%
+Checkpoint saved to checkpoint.pth
+Epoch 55/80: 100%|██████████| 251/251 [17:03<00:00,  4.08s/it]
+Train Loss: 1.4513, Train Accuracy: 65.58%
+Validation Loss: 1.5190, Validation Accuracy: 63.11%
+Checkpoint saved to checkpoint.pth
+Epoch 56/80: 100%|██████████| 251/251 [15:02<00:00,  3.59s/it]
+Train Loss: 1.4419, Train Accuracy: 65.73%
+Validation Loss: 1.5970, Validation Accuracy: 61.50%
+Checkpoint saved to checkpoint.pth
+Epoch 57/80: 100%|██████████| 251/251 [17:45<00:00,  4.24s/it]
+Train Loss: 1.4360, Train Accuracy: 65.94%
+Validation Loss: 1.5633, Validation Accuracy: 62.10%
+Checkpoint saved to checkpoint.pth
+Epoch 58/80: 100%|██████████| 251/251 [19:26<00:00,  4.65s/it]
+Train Loss: 1.4290, Train Accuracy: 66.02%
+Validation Loss: 1.5273, Validation Accuracy: 63.20%
+Checkpoint saved to checkpoint.pth
+Epoch 59/80: 100%|██████████| 251/251 [17:55<00:00,  4.28s/it]
+Train Loss: 1.4235, Train Accuracy: 66.18%
+Validation Loss: 1.5083, Validation Accuracy: 63.27%
+Checkpoint saved to checkpoint.pth
+Epoch 60/80: 100%|██████████| 251/251 [17:48<00:00,  4.26s/it]
+Train Loss: 1.4162, Train Accuracy: 66.26%
+Validation Loss: 1.5690, Validation Accuracy: 62.52%
+Checkpoint saved to checkpoint.pth
+Epoch 61/80: 100%|██████████| 251/251 [17:04<00:00,  4.08s/it]
+Train Loss: 1.4135, Train Accuracy: 66.36%
+Validation Loss: 1.5153, Validation Accuracy: 63.66%
+Checkpoint saved to checkpoint.pth
+Epoch 62/80: 100%|██████████| 251/251 [16:12<00:00,  3.88s/it]
+Train Loss: 1.4057, Train Accuracy: 66.51%
+Validation Loss: 1.5138, Validation Accuracy: 63.67%
+Checkpoint saved to checkpoint.pth
+Epoch 63/80: 100%|██████████| 251/251 [17:50<00:00,  4.27s/it]
+Train Loss: 1.4010, Train Accuracy: 66.64%
+Validation Loss: 1.5261, Validation Accuracy: 63.12%
+Checkpoint saved to checkpoint.pth
+Epoch 64/80: 100%|██████████| 251/251 [16:33<00:00,  3.96s/it]
+Train Loss: 1.3964, Train Accuracy: 66.73%
+Validation Loss: 1.5626, Validation Accuracy: 62.53%
+Checkpoint saved to checkpoint.pth
+Epoch 65/80: 100%|██████████| 251/251 [19:10<00:00,  4.58s/it]
+Train Loss: 1.3922, Train Accuracy: 66.82%
+Validation Loss: 1.5831, Validation Accuracy: 62.02%
+Checkpoint saved to checkpoint.pth
+Epoch 66/80: 100%|██████████| 251/251 [23:33<00:00,  5.63s/it]
+Train Loss: 1.3845, Train Accuracy: 66.97%
+Validation Loss: 1.5655, Validation Accuracy: 62.68%
+Checkpoint saved to checkpoint.pth
+Epoch 67/80: 100%|██████████| 251/251 [18:17<00:00,  4.37s/it]
+Train Loss: 1.3807, Train Accuracy: 67.02%
+Validation Loss: 1.5823, Validation Accuracy: 62.48%
+Checkpoint saved to checkpoint.pth
+Epoch 68/80: 100%|██████████| 251/251 [15:40<00:00,  3.75s/it]
+Train Loss: 1.3789, Train Accuracy: 67.09%
+Validation Loss: 1.4751, Validation Accuracy: 64.24%
+Checkpoint saved to checkpoint.pth
+Epoch 69/80: 100%|██████████| 251/251 [18:15<00:00,  4.37s/it]
+Train Loss: 1.3740, Train Accuracy: 67.24%
+Validation Loss: 1.5224, Validation Accuracy: 63.44%
+Checkpoint saved to checkpoint.pth
+Epoch 70/80: 100%|██████████| 251/251 [17:16<00:00,  4.13s/it]
+Train Loss: 1.3702, Train Accuracy: 67.30%
+Validation Loss: 1.5192, Validation Accuracy: 63.75%
+Checkpoint saved to checkpoint.pth
+Epoch 71/80: 100%|██████████| 251/251 [17:33<00:00,  4.20s/it]
+Train Loss: 1.3616, Train Accuracy: 67.41%
+Validation Loss: 1.4489, Validation Accuracy: 64.74%
+Checkpoint saved to checkpoint.pth
+Epoch 72/80: 100%|██████████| 251/251 [20:57<00:00,  5.01s/it]
+Train Loss: 1.3598, Train Accuracy: 67.49%
+Validation Loss: 1.4983, Validation Accuracy: 63.77%
+Checkpoint saved to checkpoint.pth
+Epoch 73/80: 100%|██████████| 251/251 [18:41<00:00,  4.47s/it]
+Train Loss: 1.3586, Train Accuracy: 67.51%
+Validation Loss: 1.4854, Validation Accuracy: 64.03%
+Checkpoint saved to checkpoint.pth
+Epoch 74/80: 100%|██████████| 251/251 [17:03<00:00,  4.08s/it]
+Train Loss: 1.3533, Train Accuracy: 67.63%
+Validation Loss: 1.5376, Validation Accuracy: 63.04%
+Checkpoint saved to checkpoint.pth
+Epoch 75/80: 100%|██████████| 251/251 [19:12<00:00,  4.59s/it]
+Train Loss: 1.3463, Train Accuracy: 67.79%
+Validation Loss: 1.5109, Validation Accuracy: 63.36%
+Checkpoint saved to checkpoint.pth
+Epoch 76/80: 100%|██████████| 251/251 [19:35<00:00,  4.68s/it]
+Train Loss: 1.3463, Train Accuracy: 67.79%
+Validation Loss: 1.4972, Validation Accuracy: 64.06%
+Checkpoint saved to checkpoint.pth
+Epoch 77/80: 100%|██████████| 251/251 [19:42<00:00,  4.71s/it]
+Train Loss: 1.3398, Train Accuracy: 67.90%
+Validation Loss: 1.4847, Validation Accuracy: 64.04%
+Checkpoint saved to checkpoint.pth
+Epoch 78/80:   6%|▋         | 16/251 [01:56<09:36,  2.45s/it]nohup: ignoring input
+------------------------------------------------------------------------------------------------------------------
+# Increased Epoch to 110, introduced ReduceLROnPlateau to get better top1 validation accuracy
+------------------------------------------------------------------------------------------------------------------
+nohup: ignoring input
+/mnt/gpu-vol/erav3-s9-resnet50-nn/gpu/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:26: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename)
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:90: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Number of workers for dataloader: 20
+Using 2 GPUs!
+Loading checkpoint 'checkpoint.pth'
+Warning: 'scheduler_state_dict' not found in checkpoint. Skipping scheduler loading.
+Checkpoint loaded (epoch 77, loss 1.3398)
+Epoch 78/110:   0%|          | 0/251 [00:00<?, ?it/s]/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:104: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 78/110: 100%|██████████| 251/251 [21:59<00:00,  5.26s/it]
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Train Loss: 1.3367, Train Accuracy: 67.98%
+Validation Loss: 1.5243, Validation Accuracy: 63.05%
+Checkpoint saved to checkpoint.pth
+Epoch 79/110: 100%|██████████| 251/251 [20:01<00:00,  4.79s/it]
+Train Loss: 1.3343, Train Accuracy: 68.01%
+Validation Loss: 1.5007, Validation Accuracy: 63.81%
+Checkpoint saved to checkpoint.pth
+Epoch 80/110:  23%|██▎       | 57/251 [04:22<07:43,  2.39s/it]nohup: ignoring input
+------------------------------------------------------------------------------------------------------------------
+# Changed the factor in ReduceLROnPlateau from 0.1 to 0.5 as the initial LR was set to 0.05 (so factor is set to 1/10th of initial LR which is 0.5)
+------------------------------------------------------------------------------------------------------------------
+nohup: ignoring input
+/mnt/gpu-vol/erav3-s9-resnet50-nn/gpu/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:26: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename)
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:90: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Number of workers for dataloader: 20
+Using 2 GPUs!
+Loading checkpoint 'checkpoint.pth'
+Checkpoint loaded (epoch 79, loss 1.3343)
+Epoch 80/110:   0%|          | 0/251 [00:00<?, ?it/s]/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:104: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 80/110: 100%|██████████| 251/251 [18:13<00:00,  4.36s/it]
+/mnt/gpu-vol/erav3-s9-resnet50-nn/src/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Train Loss: 1.3265, Train Accuracy: 68.15%
+Validation Loss: 1.4602, Validation Accuracy: 64.75%
+Checkpoint saved to checkpoint.pth
+Epoch 81/110: 100%|██████████| 251/251 [16:35<00:00,  3.96s/it]
+Train Loss: 1.3256, Train Accuracy: 68.17%
+Validation Loss: 1.5123, Validation Accuracy: 63.64%
+Checkpoint saved to checkpoint.pth
+Epoch 82/110: 100%|██████████| 251/251 [17:01<00:00,  4.07s/it]
+Train Loss: 1.3228, Train Accuracy: 68.26%
+Validation Loss: 1.4105, Validation Accuracy: 65.76%
+Checkpoint saved to checkpoint.pth
+Epoch 83/110: 100%|██████████| 251/251 [18:52<00:00,  4.51s/it]
+Train Loss: 1.3196, Train Accuracy: 68.34%
+Validation Loss: 1.4645, Validation Accuracy: 64.53%
+Checkpoint saved to checkpoint.pth
+Epoch 84/110: 100%|██████████| 251/251 [18:25<00:00,  4.40s/it]
+Train Loss: 1.3141, Train Accuracy: 68.42%
+Validation Loss: 1.4868, Validation Accuracy: 64.33%
+Checkpoint saved to checkpoint.pth
+Epoch 85/110: 100%|██████████| 251/251 [18:12<00:00,  4.35s/it]
+Train Loss: 1.3134, Train Accuracy: 68.51%
+Validation Loss: 1.4852, Validation Accuracy: 64.43%
+Checkpoint saved to checkpoint.pth
+Epoch 86/110: 100%|██████████| 251/251 [19:30<00:00,  4.66s/it]
+Train Loss: 1.3087, Train Accuracy: 68.55%
+Validation Loss: 1.5039, Validation Accuracy: 64.29%
+Checkpoint saved to checkpoint.pth
+Epoch 87/110: 100%|██████████| 251/251 [20:48<00:00,  4.97s/it]
+Train Loss: 1.1638, Train Accuracy: 72.06%
+Validation Loss: 1.2122, Validation Accuracy: 70.14%
+Checkpoint saved to checkpoint.pth
+Epoch 88/110: 100%|██████████| 251/251 [17:41<00:00,  4.23s/it]
+Train Loss: 1.1233, Train Accuracy: 72.98%
+Validation Loss: 1.2062, Validation Accuracy: 70.25%
+Checkpoint saved to checkpoint.pth
+Epoch 89/110: 100%|██████████| 251/251 [18:10<00:00,  4.34s/it]
+Train Loss: 1.1073, Train Accuracy: 73.34%
+Validation Loss: 1.1996, Validation Accuracy: 70.46%
+Checkpoint saved to checkpoint.pth
+Epoch 90/110: 100%|██████████| 251/251 [18:19<00:00,  4.38s/it]
+Train Loss: 1.0998, Train Accuracy: 73.50%
+Validation Loss: 1.2008, Validation Accuracy: 70.30%
+Checkpoint saved to checkpoint.pth
+Epoch 91/110: 100%|██████████| 251/251 [17:52<00:00,  4.27s/it]
+Train Loss: 1.0944, Train Accuracy: 73.67%
+Validation Loss: 1.1985, Validation Accuracy: 70.46%
+Checkpoint saved to checkpoint.pth
+Epoch 92/110: 100%|██████████| 251/251 [14:50<00:00,  3.55s/it]
+Train Loss: 1.0889, Train Accuracy: 73.76%
+Validation Loss: 1.1913, Validation Accuracy: 70.59%
+Checkpoint saved to checkpoint.pth
+Epoch 93/110: 100%|██████████| 251/251 [17:08<00:00,  4.10s/it]
+Train Loss: 1.0850, Train Accuracy: 73.88%
+Validation Loss: 1.1961, Validation Accuracy: 70.53%
+Checkpoint saved to checkpoint.pth
+Epoch 94/110: 100%|██████████| 251/251 [15:07<00:00,  3.62s/it]
+Train Loss: 1.0796, Train Accuracy: 73.98%
+Validation Loss: 1.1963, Validation Accuracy: 70.52%
+Checkpoint saved to checkpoint.pth
+Epoch 95/110: 100%|██████████| 251/251 [17:20<00:00,  4.15s/it]
+Train Loss: 1.0778, Train Accuracy: 74.06%
+Validation Loss: 1.1954, Validation Accuracy: 70.55%
+Checkpoint saved to checkpoint.pth
+Epoch 96/110: 100%|██████████| 251/251 [17:27<00:00,  4.17s/it]
+Train Loss: 1.0723, Train Accuracy: 74.17%
+Validation Loss: 1.1963, Validation Accuracy: 70.58%
+Checkpoint saved to checkpoint.pth
+Epoch 97/110: 100%|██████████| 251/251 [16:44<00:00,  4.00s/it]
+Train Loss: 1.0593, Train Accuracy: 74.50%
+Validation Loss: 1.1825, Validation Accuracy: 70.88%
+Checkpoint saved to checkpoint.pth
+Epoch 98/110: 100%|██████████| 251/251 [22:12<00:00,  5.31s/it]
+Train Loss: 1.0531, Train Accuracy: 74.63%
+Validation Loss: 1.1817, Validation Accuracy: 70.92%
+Checkpoint saved to checkpoint.pth
+Epoch 99/110: 100%|██████████| 251/251 [23:08<00:00,  5.53s/it]
+Train Loss: 1.0515, Train Accuracy: 74.70%
+Validation Loss: 1.1816, Validation Accuracy: 70.94%
+Checkpoint saved to checkpoint.pth
+Epoch 100/110: 100%|██████████| 251/251 [20:04<00:00,  4.80s/it]
+Train Loss: 1.0536, Train Accuracy: 74.60%
+Validation Loss: 1.1819, Validation Accuracy: 70.85%
+Checkpoint saved to checkpoint.pth
+Epoch 101/110: 100%|██████████| 251/251 [17:42<00:00,  4.23s/it]
+Train Loss: 1.0518, Train Accuracy: 74.68%
+Validation Loss: 1.1812, Validation Accuracy: 70.90%
+Checkpoint saved to checkpoint.pth
+Epoch 102/110: 100%|██████████| 251/251 [17:36<00:00,  4.21s/it]
+Train Loss: 1.0508, Train Accuracy: 74.62%
+Validation Loss: 1.1806, Validation Accuracy: 70.90%
+Checkpoint saved to checkpoint.pth
+Epoch 103/110: 100%|██████████| 251/251 [17:04<00:00,  4.08s/it]
+Train Loss: 1.0494, Train Accuracy: 74.74%
+Validation Loss: 1.1810, Validation Accuracy: 70.91%
+Checkpoint saved to checkpoint.pth
+Epoch 104/110: 100%|██████████| 251/251 [16:25<00:00,  3.93s/it]
+Train Loss: 1.0483, Train Accuracy: 74.76%
+Validation Loss: 1.1806, Validation Accuracy: 70.94%
+Checkpoint saved to checkpoint.pth
+Epoch 105/110: 100%|██████████| 251/251 [18:15<00:00,  4.36s/it]
+Train Loss: 1.0465, Train Accuracy: 74.79%
+Validation Loss: 1.1805, Validation Accuracy: 71.00%
+Checkpoint saved to checkpoint.pth
+Epoch 106/110: 100%|██████████| 251/251 [16:21<00:00,  3.91s/it]
+Train Loss: 1.0474, Train Accuracy: 74.82%
+Validation Loss: 1.1797, Validation Accuracy: 70.94%
+Checkpoint saved to checkpoint.pth
+Epoch 107/110: 100%|██████████| 251/251 [15:10<00:00,  3.63s/it]
+Train Loss: 1.0465, Train Accuracy: 74.78%
+Validation Loss: 1.1798, Validation Accuracy: 70.88%
+Checkpoint saved to checkpoint.pth
+Epoch 108/110: 100%|██████████| 251/251 [17:36<00:00,  4.21s/it]
+Train Loss: 1.0483, Train Accuracy: 74.75%
+Validation Loss: 1.1799, Validation Accuracy: 70.87%
+Checkpoint saved to checkpoint.pth
+Epoch 109/110: 100%|██████████| 251/251 [16:57<00:00,  4.05s/it]
+Train Loss: 1.0461, Train Accuracy: 74.79%
+Validation Loss: 1.1807, Validation Accuracy: 70.94%
+Checkpoint saved to checkpoint.pth
+Epoch 110/110: 100%|██████████| 251/251 [16:21<00:00,  3.91s/it]
+Train Loss: 1.0453, Train Accuracy: 74.88%
+Validation Loss: 1.1801, Validation Accuracy: 70.91%
+Checkpoint saved to checkpoint.pth
+Model saved in .pt format to model.pt
+Model saved in pickle format to model.pkl
