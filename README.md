@@ -8,10 +8,11 @@ This project implements a ResNet-50 model from scratch using PyTorch to classify
 - [Installation](#installation)
 - [Usage](#usage)
 - [Utility Functions](#utility-functions)
-- [Directory Structure](#directory-structure)
 - [Logging](#logging)
+- [Directory Structure](#directory-structure)
 - [Model Training](#model-training)
 - [Actual Training](#actual-training)
+- [Testing the Model](#testing-the-model)
 - [License](#license)
 
 ## Overview
@@ -124,7 +125,9 @@ erav3-s9-resnet50-nn/
 │   ├── data_loader.py         # Data loading and preprocessing
 │   ├── model.py                # ResNet-50 model definition
 │   ├── train.py                # Training and validation logic
+│   ├── test_model.py           # Script for testing the trained model
 │   └── utils.py                # Utility functions (e.g., top-k accuracy)
+│   └── imagenet_class_index.json # Class index mapping for ImageNet
 │
 ├── requirements.txt             # Required packages for installation
 └── README.md                    # Project documentation
@@ -197,6 +200,49 @@ During training, the batch size was set to 5120 to maximize GPU memory utilizati
 
 **Actual GPU Usage - nvidia-smi command**
 ![nvidia-smi](src/images/nvidia-smi.png)
+
+## Testing the Model
+
+Once the model has been trained and the `.pt` and `.pkl` files have been created, you can test the model using the following steps:
+
+### Prerequisites
+
+1. **Ensure Dependencies are Installed**: Make sure you have all the required packages installed as specified in `requirements.txt`. You can install them using:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Prepare the Class Index Mapping**: Ensure you have the [imagenet_class_index.json](./src/imagenet_class_index.json) file, which maps class indices to human-readable labels. This file should be in the same directory as your testing script. This file was also obtained from the kaggle dataset (specifically from `LOC_synset_mapping.txt` file).
+
+### Testing Steps
+
+1. **Update the Image Path**: In the `test_model.py` script, replace `'path/to/your/image.jpg'` with the actual path to the image you want to test.
+
+2. **Run the Testing Script**: Execute the script using Python:
+   ```bash
+   cd src
+   python test_model.py
+   ```
+
+### Expected Output
+
+After running the script, you should see output similar to the following, displaying the top-5 predicted class indices, their corresponding labels, and the probabilities.
+
+Below is the result after passing [this cat image](./src/images/cat.jpg) to the trained model. Note - You don't need GPU to test the model, it can also run on CPU based machines with minimal resources.
+
+```
+Top-5 Predictions:
+Class index: 281, Label: tabby, tabby cat, Probability: 0.7026
+Class index: 282, Label: tiger cat, Probability: 0.2177
+Class index: 285, Label: Egyptian cat, Probability: 0.0403
+Class index: 283, Label: Persian cat, Probability: 0.0044
+Class index: 700, Label: paper towel, Probability: 0.0029
+```
+
+### Notes
+
+- Ensure that your environment has the necessary hardware (GPU or CPU) configured correctly for running the model (CPU based machines is also sufficient).
+- If you encounter any issues, check that the paths to the model and image files are correct and that the required libraries are installed.
 
 ## License
 
