@@ -201,6 +201,10 @@ During training, the batch size was set to 5120 to maximize GPU memory utilizati
 **Actual GPU Usage - nvidia-smi command**
 ![nvidia-smi](src/images/nvidia-smi.png)
 
+### Actual Training Result
+
+The maximum top1 validation accuracy of 71.00% was gained during 105th epoch, as you can see in the [training logs](./src/training_logs.log). The maximum top1 training accuracy of 74.88% was gained during last 110th epoch.
+
 ## Testing the Model
 
 Once the model has been trained and the `.pt` and `.pkl` files have been created, you can test the model using the following steps:
@@ -228,7 +232,7 @@ Once the model has been trained and the `.pt` and `.pkl` files have been created
 
 After running the script, you should see output similar to the following, displaying the top-5 predicted class indices, their corresponding labels, and the probabilities.
 
-Below is the result after passing [this cat image](./src/images/cat.jpg) to the trained model. Note - You don't need GPU to test the model, it can also run on CPU based machines with minimal resources.
+Below is the result after passing [this cat image](./src/images/cat.jpg) to the trained model. Note - You don't need GPU to test the model, it can also run on CPU based machines with minimal resources. If you look at the result it predicted "tabby cat" which is correct, since tabby cat are one with M-shape mark on forehead and you can see that mark clearly in the provided image.
 
 ```
 Top-5 Predictions:
