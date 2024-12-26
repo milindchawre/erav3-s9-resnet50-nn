@@ -120,6 +120,13 @@ Redirect your training logs in appropriate file for later analysis. Training log
 ```
 erav3-s9-resnet50-nn/
 │
+├── huggingface-app/
+│   ├── app.py                  # Main application file for the Hugging Face Spaces app
+│   ├── requirements.txt         # Required packages for the Hugging Face app
+│   |── model.py                 # ResNet-50 model definition (if not already in src/)
+│   |── model.pt                 # Generated after ResNet-50 model training
+│   └── imagenet_class_index.json # Class index mapping for ImageNet
+│
 ├── src/
 │   ├── config.py              # Configuration file for parameters
 │   ├── data_loader.py         # Data loading and preprocessing
@@ -247,6 +254,12 @@ Class index: 700, Label: paper towel, Probability: 0.0029
 
 - Ensure that your environment has the necessary hardware (GPU or CPU) configured correctly for running the model (CPU based machines is also sufficient).
 - If you encounter any issues, check that the paths to the model and image files are correct and that the required libraries are installed.
+
+## HuggingFace App
+
+The trained model is also hosted as an app for inference on Hugging Face Spaces. Refer to [this README.md](./huggingface-app/README.md) for more details.
+
+![app](./huggingface-app/huggingface-app.png)
 
 ## License
 
